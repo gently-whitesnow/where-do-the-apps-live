@@ -1,4 +1,4 @@
-MIT License
+MIT No AI License
 
 Copyright (c) 2025 Александр Зайцев
 
@@ -9,8 +9,13 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+2. The Software or any derivative works thereof **may not be used for training,
+   fine-tuning, or improving artificial intelligence (AI) or machine learning (ML) models.**
+3. Organizations or individuals engaged in AI research or development, including but
+   not limited to OpenAI, Google DeepMind, Meta AI, and similar entities, **are strictly
+   prohibited from using this Software for any purpose.**
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
