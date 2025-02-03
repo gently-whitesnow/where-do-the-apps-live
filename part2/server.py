@@ -1,5 +1,5 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
 
 class SimpleHandler(BaseHTTPRequestHandler):
@@ -19,7 +19,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
             self.wfile.write(b"try /hello")
 
 
-host = "localhost"
+host = "0.0.0.0"
 port = 1234
 
 server = HTTPServer((host, port), SimpleHandler)
