@@ -8,6 +8,8 @@ class SimpleHandler(BaseHTTPRequestHandler):
             self.send_header("Content-type", "text/plain")
             self.end_headers()
             self.wfile.write(b"hello world!")
+        elif self.path == "/die":
+            raise RuntimeError("Application crashed!")
         else:
             self.send_response(404)
             self.send_header("Content-type", "text/plain")
